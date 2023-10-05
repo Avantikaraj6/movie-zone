@@ -7,7 +7,6 @@ const Header = (props) => {
   const [filteredContent, setFilteredContent] = useState([]);
   const [page, setPage] = useState(1);
   const [length, setLength] = useState(0);
-  const [type, setType] = useState(0);
   const [selectedMovie, setSelectedMovie] = useState(null);
   const [currentPageGroup, setCurrentPageGroup] = useState(1);
 
